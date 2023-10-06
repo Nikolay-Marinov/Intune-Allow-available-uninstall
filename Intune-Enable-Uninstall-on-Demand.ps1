@@ -15,7 +15,7 @@
     The thumbprint of the certificate used to generate the access token.
 
 .EXAMPLE
-    PS C:\> .\Intune-Enable-Uninstall-on-Demand.ps1 -TenantId "contoso.onmicrosoft.com" -ApplicationId "00000000-0000-0000-0000-000000000000" -CertificateThumbprint "1234567890abcdef1234567890abcdef12345678"
+    PS C:\> .\Intune-Enable-Uninstall-on-Demand.ps1 -TenantId "12345678-90ab-cdef-1234-567890abcdef" -ApplicationId "00000000-0000-0000-0000-000000000000" -CertificateThumbprint "1234567890abcdef1234567890abcdef12345678"
 
 .NOTES
     This script requires the Azure Active Directory PowerShell module to be installed.
@@ -73,7 +73,7 @@ param (
     The scope of the access token. The default value is "https://graph.microsoft.com/.default".
 
 .EXAMPLE
-    PS C:\> Get-AuthTokenwithCertificate -TenantID "contoso.onmicrosoft.com" -AppId "00000000-0000-0000-0000-000000000000" -CertificateThumbprint "1234567890abcdef1234567890abcdef12345678"
+    PS C:\> Get-AuthTokenwithCertificate -TenantID "12345678-90ab-cdef-1234-567890abcdef" -AppId "00000000-0000-0000-0000-000000000000" -CertificateThumbprint "1234567890abcdef1234567890abcdef12345678"
 
     This example generates an access token for the specified tenant, application, and certificate.
 

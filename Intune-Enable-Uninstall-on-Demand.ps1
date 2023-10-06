@@ -24,9 +24,6 @@
     Date: 2023-10-06
 
     DISCLAIMER !!! 
-    The following is the disclaimer that applies to all scripts, functions, one-liners, etc. 
-    This disclaimer supersedes any disclaimer included in any script, function, one-liner, etc.
-
     You running this script/function means you will not blame the author(s) if this breaks your stuff. 
     This script/function is provided AS IS without warranty of any kind. Author(s) disclaim all implied 
     warranties including, without limitation, any implied warranties of merchantability or of fitness for 

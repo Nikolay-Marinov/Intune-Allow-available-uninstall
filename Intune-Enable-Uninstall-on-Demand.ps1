@@ -15,7 +15,7 @@
     The thumbprint of the certificate used to generate the access token.
 
 .EXAMPLE
-    PS C:\> .\UninstallonDemand.ps1 -TenantId "contoso.onmicrosoft.com" -ApplicationId "00000000-0000-0000-0000-000000000000" -CertificateThumbprint "1234567890abcdef1234567890abcdef12345678"
+    PS C:\> .\Intune-Enable-Uninstall-on-Demand.ps1 -TenantId "contoso.onmicrosoft.com" -ApplicationId "00000000-0000-0000-0000-000000000000" -CertificateThumbprint "1234567890abcdef1234567890abcdef12345678"
 
 .NOTES
     This script requires the Azure Active Directory PowerShell module to be installed.
